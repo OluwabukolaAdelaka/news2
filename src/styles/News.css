@@ -1,0 +1,62 @@
+.news {
+  box-shadow: 0px 5px 5px rgba(248, 241, 241, 0.945);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  background-color: white;
+  max-width: 30%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+}
+
+.myTitle {
+  line-height: 1.8rem;
+  font-size: 1.6rem;
+}
+
+.writer {
+  justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.mybtn {
+  background-color: #201a15d7;
+  color: #f1730c;
+  padding: 10px 16px;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.mybtn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .news {
+    max-width: 27%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .news {
+    max-width: 43%;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .news {
+    max-width: 80%;
+  }
+}

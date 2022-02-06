@@ -1,0 +1,9 @@
+.App {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.newsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
